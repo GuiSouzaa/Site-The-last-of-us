@@ -1,0 +1,12 @@
+/* Banner.module.css */
+.banner {
+    background-image: url('./banner.jpg');
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    justify-content: center;
+
+    
+}
+

@@ -1,0 +1,45 @@
+/* Estilização para o título */
+.texto {
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+  }
+  
+  /* Estilização para o contêiner principal */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite quebra de linha para múltiplas imagens */
+    gap: 1em; /* Espaçamento entre os itens */
+    padding: 1em;
+  }
+  
+  /* Estilização para cada card de imagem */
+  .imageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilização para as imagens */
+  .imgjoel {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Estilização para os textos abaixo das imagens */
+  .imageText {
+    font-size: 1em;
+    color: #444;
+  }
+  
